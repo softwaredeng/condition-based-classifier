@@ -1,0 +1,25 @@
+$ pclass=1 \wedge sex=female $ & $\Rightarrow  Y = 1 \ $(94.0/3.0) \\
+$ pclass=2 \wedge sex=female $ & $\Rightarrow  Y = 1 \ $(76.0/6.0) \\
+$ sex=female \wedge sibsp=0 \wedge age=large $ & $\Rightarrow  Y = 0 \ $(7.0/1.0) \\
+$ sex=female \wedge sibsp=0 \wedge parch=0 \wedge fare=median $ & $\Rightarrow  Y = 0 \ $(10.0/4.0) \\
+$ sex=female \wedge sibsp=0 \wedge fare=small \wedge embarked=S \wedge age=small $ & $\Rightarrow  Y = 1 \ $(7.0/2.0) \\
+$ sex=female \wedge sibsp=0 \wedge fare=small \wedge embarked=S $ & $\Rightarrow  Y = 0 \ $(11.0/4.0) \\
+$ sex=female \wedge sibsp=0 $ & $\Rightarrow  Y = 1 \ $(46.0/12.0) \\
+$ sex=female \wedge embarked=C \wedge sibsp=>=2 $ & $\Rightarrow  Y = 1 \ $(3.0) \\
+$ sex=female \wedge embarked=C \wedge age=small \wedge parch=0 $ & $\Rightarrow  Y = 1 \ $(3.0/1.0) \\
+$ sex=female \wedge embarked=C $ & $\Rightarrow  Y = 0 \ $(4.0/1.0) \\
+$ sex=female \wedge parch=0 \wedge fare=median \wedge age=small $ & $\Rightarrow  Y = 0 \ $(4.0) \\
+$ sex=female \wedge parch=0 \wedge fare=median $ & $\Rightarrow  Y = 1 \ $(14.0/4.0) \\
+$ pclass=1 \wedge sibsp=1 \wedge age=small \wedge parch=0 $ & $\Rightarrow  Y = 0 \ $(2.0) \\
+$ pclass=1 \wedge sibsp=1 \wedge age=small $ & $\Rightarrow  Y = 1 \ $(2.0) \\
+$ pclass=1 \wedge sibsp=1 \wedge parch=0 \wedge embarked=C $ & $\Rightarrow  Y = 1 \ $(7.0/2.0) \\
+$ pclass=1 \wedge sibsp=1 $ & $\Rightarrow  Y = 0 \ $(20.0/8.0) \\
+$ sibsp=0 \wedge fare=large \wedge parch=>=2 \wedge embarked=S $ & $\Rightarrow  Y = 1 \ $(2.0) \\
+$ sibsp=0 \wedge fare=large \wedge age=median \wedge parch=0 $ & $\Rightarrow  Y = 1 \ $(16.0/6.0) \\
+$ sibsp=0 \wedge fare=large $ & $\Rightarrow  Y = 0 \ $(72.0/24.0) \\
+$ parch=1 \wedge age=small \wedge sibsp=0 $ & $\Rightarrow  Y = 1 \ $(2.0) \\
+$ parch=1 \wedge sibsp=1 \wedge fare=median \wedge age=median $ & $\Rightarrow  Y = 0 \ $(7.0/1.0) \\
+$ parch=1 \wedge sibsp=1 \wedge fare=median \wedge sex=male \wedge age=large $ & $\Rightarrow  Y = 0 \ $(2.0) \\
+$ parch=1 \wedge sibsp=1 \wedge fare=median $ & $\Rightarrow  Y = 1 \ $(16.0/2.0) \\
+$ parch=1 $ & $\Rightarrow  Y = 0 \ $(29.0/2.0) \\
+$  Else  $ & $\Rightarrow  Y = 0 \ $(435.0/47.0) \\
